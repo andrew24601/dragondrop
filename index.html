@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+            .drag {
+                padding: 1em 0.5em;
+                border: solid 1px #ccc;
+                background-color: white;
+                box-sizing: border-box;
+                height: 75px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="drag">Item 0</div>
+            <div class="drag">Item 1</div>
+            <div class="drag">Item 2</div>
+            <div class="drag">Item 3</div>
+        </div>
+        <script type="module">
+            import {test} from "./src/test.ts";
+            test();
+        </script>
+
+    </body>
+</html>
